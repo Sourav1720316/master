@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CrossBroswser" parallel = "classes" thread-count="2">
+<listeners>
+	<listener class-name="Base.AutomaticRetryAnalyzer"></listener>
+</listeners>
+<test name="chrome">
+<parameter name="broswer" value="chrome"></parameter>
+<classes>
+<class name=""></class>
+</classes>
+</test>
+<test name="firefox">
+<parameter name="broswer" value="firefox"></parameter>
+<classes>
+<class name=""></class>
+</classes>
+</test>
+
+</suite>
