@@ -3,7 +3,6 @@
 <suite name="CrossBroswser" parallel = "classes" thread-count="2">
 <listeners>
 	<listener class-name="Base.AutomaticRetryAnalyzer"></listener>
-	
 </listeners>
 <test name="chrome">
 <parameter name="broswer" value="chrome"></parameter>
