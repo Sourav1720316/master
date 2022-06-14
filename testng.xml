@@ -4,8 +4,7 @@
 <listeners>
 	<listener class-name="Base.AutomaticRetryAnalyzer"></listener>
 </listeners>
-	
-<test name="chrome">
+<test name="chromes">
 <parameter name="broswer" value="chrome"></parameter>
 <classes>
 <class name=""></class>
